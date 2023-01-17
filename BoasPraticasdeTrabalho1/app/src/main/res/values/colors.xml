@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="holo_orange_transparent">#59ffbb33</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorUtilizador">#476B9D</color>
+    <color name="circulosMenu">#7c4dff</color>
+    <color name="red_dark">#d43c3c</color>
+    <color name="red_brown">#A52A2A</color>
+    <color name="rosa">#E26A6A</color>
+    <color name="blue_dark">#013066</color>
+    <color name="blue_medium">#80014592</color>
+    <color name="blue">#015ABF</color>
+    <color name="blue_light">#77ADD8E6</color>
+    <color name="roxo">#913D88</color>
+    <color name="red">#90a51b0b</color>
+    <color name="white">#ffffff</color>
+</resources>

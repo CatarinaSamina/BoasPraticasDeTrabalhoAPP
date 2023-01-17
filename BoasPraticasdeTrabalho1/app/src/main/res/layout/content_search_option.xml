@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    tools:context=".SearchOption"
+    tools:showIn="@layout/activity_search_option">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="60dp"
+        android:fontFamily="@font/graduate"
+        android:imeOptions="actionDone"
+        android:text="Filtro de Pesquisa"
+        android:textAlignment="center"
+        android:textColor="@color/blue_dark"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/TIL_keyword"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginTop="50dp"
+
+        android:layout_marginBottom="30dp"
+        app:errorEnabled="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/editText_keyword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Introduza palavra-chave..."
+            android:inputType="text"
+            android:layout_margin="20sp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/filtra_receiver"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/button_editar"
+        android:text="Filtrar por Recetor"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/filtra_acao"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/button_editar"
+        android:text="Filtrar por Ação"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/filtra_recurso"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_editar"
+        android:text="Filtrar por Recurso"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <include
+        layout="@layout/menu_option_search"/>
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.boaspraticasdetrabalho1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Funcoes"></activity>
+        <activity android:name=".Produto" />
+        <activity
+            android:name=".SearchResult"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity
+            android:name=".SearchOption"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity android:name=".verAtividade" />
+        <activity android:name=".EditPhrase" />
+        <activity android:name=".Atividades" />
+        <activity android:name=".verPadrao" />
+        <activity android:name=".Padroes" />
+        <activity android:name=".verAgrupamento" />
+        <activity android:name=".CreatePhrase" />
+        <activity android:name=".Perfil_Analista" />
+        <activity android:name=".Agrupamentos" />
+        <activity android:name=".ver_FraseA" />
+        <activity android:name=".MainFraseAnalista" />
+        <activity android:name=".Perfil_Processo" />
+        <activity
+            android:name=".Login"
+            tools:ignore="WrongManifestParent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainProcesso"
+            tools:ignore="WrongManifestParent" />
+        <activity
+            android:name=".verProcesso"
+            tools:ignore="WrongManifestParent" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="WrongManifestParent" />
+        <activity
+            android:name=".Perfil"
+            tools:ignore="WrongManifestParent" />
+        <activity
+            android:name=".verFrase"
+            tools:ignore="WrongManifestParent" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
